@@ -1,0 +1,19 @@
+@use './global/reset';
+@use './global//fonts' as *;
+
+.swiper-button-next {
+    left: 70px;
+    top: 100%;
+    @media (max-width: 991px) {
+        right: -2px;
+    }
+}
+
+.swiper-button-prev {
+    left: 0;
+    top: 100%;
+
+    @media (max-width: 991px) {
+        left: -2px;
+    }
+}
