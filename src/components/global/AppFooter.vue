@@ -5,48 +5,44 @@
         <div class="row">
           <div class="col-lg-3">
             <div class="footer_logo">
-              <img src="../../assets/companylogo.svg" alt="companylogo" />
+              <img src="../../assets/mealcenterlogo.svg" alt="companylogo" />
             </div>
           </div>
-          <div class="col-lg-2">
+          <div class="col-lg-3">
             <div class="footer_page">
               <ul>
-                <h2>primary pages</h2>
-                <li><a>home</a></li>
-                <li><a>about us</a></li>
-                <li><a>team</a></li>
-                <li><a>contact us</a></li>
+                <h2>Primary Pages</h2>
+                <li><a>Home</a></li>
+                <li><a>About us</a></li>
+                <li><a>Services</a></li>
               </ul>
             </div>
           </div>
           <div class="col-lg-3">
             <div class="footer_page">
               <ul>
-                <h2>primary pages</h2>
-                <li><a>home</a></li>
-                <li><a>about us</a></li>
-                <li><a>team</a></li>
-                <li><a>contact us</a></li>
+                <h2>Pages</h2>
+                <li><a>protiofilio</a></li>
+                <li><a>Team</a></li>
+                <li><a>Learning Zone</a></li>
+                <li><a>Contact us</a></li>
               </ul>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-3">
             <div class="footer_contact">
-              <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
-              <p>
-                The latest news, articles, and resources, sent to your inbox
-                weekly.
-              </p>
-              <form>
-                <input type="text" placeholder="Enter your email" />
-                <input type="submit" value="Subscribe" />
-              </form>
+              <h3></h3>
+               <ul>
+                <h2>Contact us:</h2>
+                <li><img src="../../assets/email.svg" alt="email icon"> <a href="mailto:info@mealcenter.org">info@mealcenter.org</a></li>
+                <li><img src="../../assets/Phone.svg" alt="phone icon"><a href="Tel:+967774354278">+967 774354278</a></li>
+              </ul>
             </div>
           </div>
         </div>
         <div class="footer_soical">
           <div>
-            <h5>&copy 2022 MEAL Center</h5>
+            <h5>&copy; 2022 MEAL Center</h5>
           </div>
           <div class="footer_soical_subsocial">
             <ul>
@@ -87,12 +83,15 @@ export default {};
 .footer {
   background-color: #182135;
   font-family: DMSans-R;
-  padding: 100px 0;
+  padding: 50px 0 15px 0;
   &_logo {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    img{
+      width: 300px;
+    }
   }
   &_page {
     display: flex;
@@ -100,23 +99,22 @@ export default {};
     align-items: center;
     ul {
       h2 {
-        margin-bottom: 30px;
-        color: #7b88a8;
-        font-size: 13px;
+        margin-bottom: 10.2px;
+        color: #2680C2;
+        font-size: 18px;
         line-height: 1.4;
-        font-weight: 700;
         letter-spacing: 1px;
-        text-transform: uppercase;
+        text-transform: capitalize;
+        text-align: left;
+        font-family: DMSans-B;
+
       }
       li {
         text-align: left;
         a {
           display: inline-block;
           margin-top: 4px;
-          margin-bottom: 8px;
-          padding-top: 8px;
-          padding-right: 6px;
-          padding-bottom: 8px;
+          margin-bottom: 12px;
           color: #fff;
           font-size: 16px;
           background-color: transparent;
@@ -131,69 +129,30 @@ export default {};
   }
   &_contact {
     text-align: left;
-    h3 {
-      margin-bottom: 30px;
-      color: #7b88a8;
-      font-size: 13px;
-      line-height: 1.4;
-      font-weight: 700;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-    }
-    p {
-      margin-top: 4px;
-      margin-bottom: 20px;
-      padding-top: 8px;
-      padding-right: 6px;
-      padding-bottom: 8px;
-      color: #fff;
-      font-size: 16px;
-      line-height: 1.3;
-    }
-    input[type="text"] {
-      min-height: 56px;
-      margin-right: 10px;
-      margin-bottom: 0px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-left: 20px;
-      display: inline-block;
-      padding: 8px 12px;
+    h2 {
       margin-bottom: 10px;
-      font-size: 14px;
-      line-height: 1.42857143;
-      color: #333333;
-      background-color: #ffffff;
-      border: 1px solid #cccccc;
-      width: 57%;
-      &:focus {
-        outline: none;
-        border: none;
-      }
+      color: #2680C2;
+      font-size: 18px;
+      line-height: 1.4;
+      letter-spacing: 1px;
+      text-transform: capitalize;
+      font-family: DMSans-B;
     }
-    input[type="submit"] {
-      min-height: 56px;
-      min-width: 140px;
-      padding-right: 32px;
-      padding-left: 32px;
-      background-color: #6a35ff;
-      display: inline-block;
-      padding: 9px 15px;
-      background-color: #3898ec;
-      color: white;
-      border: 0;
-      line-height: inherit;
-      text-decoration: none;
-      cursor: pointer;
-      border-radius: 0;
+    li{
+      margin-bottom: 10px;
+      img{
+        margin-right: 5px;
+      }
+      a{
+        color: #EBEFFA;
+      }
     }
   }
   &_soical {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
-    padding-top: 32px;
+    
     border-top: 1px solid hsla(0, 0%, 100%, 0.18);
     font-size: 15px;
     h5{
@@ -201,6 +160,7 @@ export default {};
         font-size: 18px ;
     }
     &_subsocial {
+      padding-top: 20px;
       ul {
         display: flex;
         justify-content: center;

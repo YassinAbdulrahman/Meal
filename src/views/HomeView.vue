@@ -33,15 +33,43 @@
       </div>
     </div>
 
+    <!-- start about_us -->
+    <div class="aboutus">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="aboutus_imgside">
+              <img src="../assets/about_ Image.svg" alt="about_ Image" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="aboutus_textside">
+              <h4 class="aboutus_textside_heading">about us</h4>
+              <p class="aboutus_textside_desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                pretium, elit quis vehicula interdum, sem metus iaculis sapien,
+                sed bibendum lectus augue eu metus.
+              </p>
+              <div></div>
+              <a class="aboutus_textside_link" href="#">
+                <span>read more</span>
+                <img src="../assets/link_arow.svg" alt="link_arow" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end about_us -->
+
     <!-- start services -->
     <div class="services">
       <div class="container">
         <h3>Our Services</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing ,ipsum dolor sit
-          amet, consectetur adipiscing.
-          Lorem ipsum dolor sit amet, consectetur adipiscing ,ipsum dolor sit
-          amet, consectetur adipiscing.
+          amet, consectetur adipiscing. Lorem ipsum dolor sit amet, consectetur
+          adipiscing ,ipsum dolor sit amet, consectetur adipiscing.
         </p>
         <div class="row">
           <div class="col-lg-3">
@@ -101,34 +129,113 @@
     </div>
     <!-- end services -->
 
-    <!-- start about_us -->
-    <div class="aboutus">
+    <!-- start why   -->
+    <div class="why">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="aboutus_imgside">
-              <img src="../assets/about_ Image.svg" alt="about_ Image" />
+        <h2 class="why_title">Why Meal Center</h2>
+        <div class="row g-4 justify-content-between g-5">
+          <div class="col-md-12 col-lg-4">
+            <div class="why_box">
+              <div
+                class="
+                  why_box_heading
+                  d-flex
+                  align-items-center
+                  justify-content-between
+                "
+              >
+                <img src="../assets/whyboxicon.svg" alt="why box icon" />
+                <h3>01</h3>
+              </div>
+              <div class="why_box_content">
+                <h3>Information Reports</h3>
+                <p>
+                  Six years ago , in 2017 , MEAL Center ( MC ) was established ,
+                  and it seeks partnerships with organizations to improve the
+                  monitoring and evaluation
+                </p>
+              </div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="aboutus_textside">
-              <h4 class="aboutus_textside_heading">about us</h4>
-              <p class="aboutus_textside_desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                pretium, elit quis vehicula interdum, sem metus iaculis sapien,
-                sed bibendum lectus augue eu metus.
-              </p>
-              <div></div>
-              <a class="aboutus_textside_link" href="#">
-                <span>read more</span>
-                <img src="../assets/link_arow.svg" alt="link_arow" />
-              </a>
+          <div class="col-md-12 col-lg-4">
+            <div class="why_box middle">
+              <div
+                class="
+                  why_box_heading
+                  d-flex
+                  align-items-center
+                  justify-content-between
+                "
+              >
+                <img src="../assets/whymiddel.svg" alt="why box icon" />
+                <h3>02</h3>
+              </div>
+              <div class="why_box_content">
+                <h3>Information Reports</h3>
+                <p>
+                  Six years ago , in 2017 , MEAL Center ( MC ) was established ,
+                  and it seeks partnerships with organizations to improve the
+                  monitoring and evaluation
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4">
+            <div class="why_box">
+              <div
+                class="
+                  why_box_heading
+                  d-flex
+                  align-items-center
+                  justify-content-between
+                "
+              >
+                <img src="../assets/whyboxicon.svg" alt="why box icon" />
+                <h3>03</h3>
+              </div>
+              <div class="why_box_content">
+                <h3>Information Reports</h3>
+                <p>
+                  Six years ago , in 2017 , MEAL Center ( MC ) was established ,
+                  and it seeks partnerships with organizations to improve the
+                  monitoring and evaluation
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- end about_us -->
+    <!-- end why   -->
+
+    <!-- start experience-->
+    <div class="experience">
+      <div class="container">
+        <div class="experience_humanitairy">
+          <h3>Meal Center's experience</h3>
+          <p>
+            Six years ago , in 2017 , MEAL Center ( MC ) was established , and
+            it seeks partnerships with organizations to improve the monitoring
+            and evaluation of projects .MC assists in the training of
+            organizations ' employees and develops their abilities in the M & E
+            field to improve the
+          </p>
+          <experience />
+        </div>
+        <div class="experience_humanitairy" style="margin-top: 100px">
+          <h3>Meal Center's experience in development</h3>
+          <p>
+            Six years ago , in 2017 , MEAL Center ( MC ) was established , and
+            it seeks partnerships with organizations to improve the monitoring
+            and evaluation of projects .MC assists in the training of
+            organizations ' employees and develops their abilities in the M & E
+            field to improve the
+          </p>
+          <experience />
+        </div>
+      </div>
+    </div>
+    <!-- end experience-->
 
     <!-- start feedback -->
     <div class="feedback">
@@ -177,35 +284,35 @@
                 <img src="../assets/companyun.svg" alt="companyun" />
                 <img src="../assets/companyun.svg" alt="companyun" />
               </div>
-              </div>
             </div>
           </div>
-          <div class="row mt-5">
-            <div class="col-lg-3">
-              <div class="suppoter_container_title">
-                <h4>UN Ageenci</h4>
-              </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-3">
+            <div class="suppoter_container_title">
+              <h4>UN Ageenci</h4>
             </div>
-            <div class="col-lg-9">
-              <div class="suppoter_container_img">
-                <img src="../assets/companyun.svg" alt="companyun" />
-                <img src="../assets/companyun.svg" alt="companyun" />
-                <img src="../assets/companyun.svg" alt="companyun" />
-                <img src="../assets/companyun.svg" alt="companyun" />
-              </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="suppoter_container_img">
+              <img src="../assets/companyun.svg" alt="companyun" />
+              <img src="../assets/companyun.svg" alt="companyun" />
+              <img src="../assets/companyun.svg" alt="companyun" />
+              <img src="../assets/companyun.svg" alt="companyun" />
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- end supporter -->
   </div>
+  <!-- end supporter -->
 </template>
 
 <script>
 import FeedBack from "@/components/home/FeedBack.vue";
+import experience from "@/components/home/experience.vue";
 export default {
-  components: { FeedBack },
+  components: { FeedBack, experience },
   name: "HomeView",
   data() {
     return {
@@ -311,26 +418,21 @@ export default {
   }
   .services {
     background-color: #fff;
-    padding-top: 100px;
     padding-bottom: 100px;
     > .container {
       h3 {
         margin-top: 0px;
-        margin-bottom: 20px;
-        font-family: Manrope, sans-serif;
-        color: #121f3e;
+        margin-bottom: 24px;
+        color: #182135;
         font-size: 48px;
-        line-height: 53px;
         font-family: DMSans-B;
-        letter-spacing: -0.03em;
       }
       p {
-        margin-bottom: 50px;
-        color: #96a0b5;
-        font-size: 16px;
+        margin-bottom: 24px;
+        color: #627d98;
+        font-size: 20px;
         line-height: 32px;
         font-family: DMSans-M;
-        width: 90%;
         margin: 0 auto 50px;
       }
     }
@@ -367,7 +469,7 @@ export default {
     }
   }
   .aboutus {
-    padding-top: 10px;
+    padding-top: 100px;
     padding-bottom: 100px;
     font-family: DMSans-R;
     &_textside {
@@ -405,29 +507,138 @@ export default {
       }
     }
   }
+  .why {
+    &_title {
+      font-size: 48px;
+      font-family: DMSans-B;
+      margin-bottom: 50px;
+    }
+    &_box {
+      width: 100%;
+      box-shadow: 0px 0px 10px 0px rgb(1 65 245 / 12%);
+      background-color: #fff;
+      border-radius: 20px;
+      padding: 20px 20.5px 41.5px 24px;
+      &_heading {
+        margin-bottom: 13px;
+        img {
+          width: 55.45px;
+          height: 55.45px;
+        }
+        h3 {
+          font-size: 72px;
+          font-family: DMSans-B;
+          color: #6a35ff;
+          margin-bottom: 0;
+          opacity: 30%;
+        }
+      }
+      &_content {
+        text-align: left;
+        h3 {
+          font-size: 32px;
+          font-family: DMSans-M;
+          margin-bottom: 0;
+          color: #2d3958;
+          margin-bottom: 12px;
+        }
+        p {
+          font-size: 22px;
+          line-height: 38px;
+          margin: 0;
+          color: #2d3958;
+        }
+      }
+    }
+    &_box.middle {
+      background-image: linear-gradient(
+        to right bottom,
+        #5032a8,
+        #5e3dbd,
+        #6c47d3,
+        #7a53e9,
+        #885eff
+      );
+      h3 {
+        color: #eee8ff;
+      }
+      p {
+        color: #eee8ff;
+      }
+    }
+  }
+  .experience {
+    padding-top: 128px;
+    &_humanitairy {
+      h3 {
+        font-size: 48px;
+        font-family: DMSans-B;
+        margin-bottom: 24px;
+        color: #182135;
+      }
+      p {
+        width: 1088px;
+        max-width: 100%;
+        margin: auto;
+        font-size: 20px;
+        line-height: 32px;
+        color: #627d98;
+      }
+      &_srv {
+        width: 260px;
+        height: 150px;
+        background-color: #e9f9fe;
+        border-radius: 0 20px 20px;
+        position: relative;
+        margin-top: 35.8px;
+        box-shadow: 0 0 6px rgb(0 0 0 / 10%);
+        img {
+          position: absolute;
+          top: -45px;
+          left: -8.5px;
+        }
+        &_box {
+          width: 198.58px;
+          text-align: left;
+          padding: 45px 45px 36px 16.4px;
+          h2 {
+            margin-bottom: 0;
+            color: #0f609b;
+            font-size: 72px;
+            font-family: DMSans-B;
+          }
+          p {
+            font-size: 24px;
+            line-height: 31px;
+            color: #0f609b;
+            font-family: DMSans-M;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
   .feedback {
     font-family: DMSans-R;
+    padding-top: 128px;
     h3 {
       margin-top: 0px;
       margin-bottom: 0px;
-      font-family: Manrope, sans-serif;
-      color: #121f3e;
-      font-size: 40px;
-      line-height: 53px;
+      font-size: 48px;
       font-family: DMSans-B;
+      margin-bottom: 20px;
       letter-spacing: -0.03em;
     }
     p {
       margin-bottom: 20px;
       color: #96a0b5;
-      font-size: 16px;
+      font-size: 20px;
       line-height: 32px;
-      font-family: DMSans-M;
     }
   }
   .suppoter {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 128px;
+    padding-bottom: 128px;
     h2 {
       margin-top: 0;
       margin-bottom: 40px;
